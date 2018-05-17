@@ -7,7 +7,8 @@ public class DividerTest {
 
 	@Test
 	public void test() {
-		int result = Divider.divide(8,4);
+		Divider divider = new Divider();
+		int result = divider.divide(8,4);
 		Assert.assertEquals(2, result);
 	}
 
